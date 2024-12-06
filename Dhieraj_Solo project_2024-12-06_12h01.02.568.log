@@ -1,0 +1,899 @@
+10.2772 	INFO 	Loaded monitor calibration from ['2024_08_23 11:36']
+10.2866 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+10.6309 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002560753E680>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002560753E620>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000256075D7490>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.6310 	EXP 	window1: backgroundImage = ''
+10.6310 	EXP 	window1: backgroundFit = 'none'
+10.7113 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.7113 	EXP 	window1: recordFrameIntervals = False
+10.9883 	EXP 	window1: recordFrameIntervals = True
+11.1726 	EXP 	Screen (0) actual frame rate measured at 60.15Hz
+11.1727 	EXP 	window1: recordFrameIntervals = False
+15.1476 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1477 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1477 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1477 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1478 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1478 	INFO 	keyboard.Keyboard is using iohub backend.
+15.1478 	EXP 	Solo project: status = STARTED
+15.2726 	EXP 	Created Welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.2976 	EXP 	Created textInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Times New Roman', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInstructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.2985 	EXP 	Created textStudytrail = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textStudytrail', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.2999 	EXP 	Created textBlank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textBlank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.3065 	EXP 	Created textWaitScreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWaitScreen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please notify researcher', units='height', win=Window(...), wrapWidth=1)
+15.3179 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.3190 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0338 	INFO 	Keyboard events cleared
+0.0334 	EXP 	Welcome: autoDraw = True
+7.4723 	DATA 	Keypress: space
+7.4810 	INFO 	Keyboard events cleared
+7.4805 	EXP 	Welcome: autoDraw = False
+7.4805 	EXP 	textInstructions: autoDraw = True
+7.8223 	EXP 	Imported C:/Users/mssaa/Downloads/worditem - Sheet1.csv as conditions, 6 conditions, 2 params
+7.8227 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.8272 	DATA 	Keypress: space
+7.8308 	EXP 	textInstructions: autoDraw = False
+7.8308 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+7.8308 	EXP 	textStudytrail: height = 0.05
+7.8308 	EXP 	textStudytrail: height = 0.05
+7.8308 	EXP 	textStudytrail: height = 0.05
+7.8308 	EXP 	textStudytrail: text = 'depression'
+7.8308 	EXP 	textStudytrail: autoDraw = True
+9.8311 	EXP 	textStudytrail: autoDraw = False
+9.8311 	EXP 	textStudytrail: autoDraw = False
+9.8311 	EXP 	textBlank: autoDraw = True
+10.3150 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+10.3295 	EXP 	textBlank: autoDraw = False
+10.3295 	EXP 	textBlank: autoDraw = False
+10.3295 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+10.3295 	EXP 	textStudytrail: height = 0.05
+10.3295 	EXP 	textStudytrail: height = 0.05
+10.3295 	EXP 	textStudytrail: height = 0.05
+10.3295 	EXP 	textStudytrail: text = 'joyous'
+10.3295 	EXP 	textStudytrail: autoDraw = True
+12.3301 	EXP 	textStudytrail: autoDraw = False
+12.3301 	EXP 	textStudytrail: autoDraw = False
+12.3301 	EXP 	textBlank: autoDraw = True
+12.8144 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+12.8289 	EXP 	textBlank: autoDraw = False
+12.8289 	EXP 	textBlank: autoDraw = False
+12.8289 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+12.8289 	EXP 	textStudytrail: height = 0.05
+12.8289 	EXP 	textStudytrail: height = 0.05
+12.8289 	EXP 	textStudytrail: height = 0.05
+12.8289 	EXP 	textStudytrail: text = 'excited '
+12.8289 	EXP 	textStudytrail: autoDraw = True
+14.8286 	EXP 	textStudytrail: autoDraw = False
+14.8286 	EXP 	textStudytrail: autoDraw = False
+14.8286 	EXP 	textBlank: autoDraw = True
+15.3133 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+15.3279 	EXP 	textBlank: autoDraw = False
+15.3279 	EXP 	textBlank: autoDraw = False
+15.3279 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+15.3279 	EXP 	textStudytrail: height = 0.05
+15.3279 	EXP 	textStudytrail: height = 0.05
+15.3279 	EXP 	textStudytrail: height = 0.05
+15.3279 	EXP 	textStudytrail: text = 'vexed'
+15.3279 	EXP 	textStudytrail: autoDraw = True
+17.3286 	EXP 	textStudytrail: autoDraw = False
+17.3286 	EXP 	textStudytrail: autoDraw = False
+17.3286 	EXP 	textBlank: autoDraw = True
+17.8119 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+17.8269 	EXP 	textBlank: autoDraw = False
+17.8269 	EXP 	textBlank: autoDraw = False
+17.8269 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+17.8269 	EXP 	textStudytrail: height = 0.05
+17.8269 	EXP 	textStudytrail: height = 0.05
+17.8269 	EXP 	textStudytrail: height = 0.05
+17.8269 	EXP 	textStudytrail: text = 'anxiety'
+17.8269 	EXP 	textStudytrail: autoDraw = True
+19.8271 	EXP 	textStudytrail: autoDraw = False
+19.8271 	EXP 	textStudytrail: autoDraw = False
+19.8271 	EXP 	textBlank: autoDraw = True
+20.3114 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+20.3254 	EXP 	textBlank: autoDraw = False
+20.3254 	EXP 	textBlank: autoDraw = False
+20.3254 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+20.3254 	EXP 	textStudytrail: height = 0.05
+20.3254 	EXP 	textStudytrail: height = 0.05
+20.3254 	EXP 	textStudytrail: height = 0.05
+20.3254 	EXP 	textStudytrail: text = 'content'
+20.3254 	EXP 	textStudytrail: autoDraw = True
+22.3263 	EXP 	textStudytrail: autoDraw = False
+22.3263 	EXP 	textStudytrail: autoDraw = False
+22.3263 	EXP 	textBlank: autoDraw = True
+22.8102 	EXP 	New trial (rep=1, index=0): <Trial 6 (0 in rep 1) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 6, 'thisTrialN': 0, 'thisRepN': 1}>
+22.8258 	EXP 	textBlank: autoDraw = False
+22.8258 	EXP 	textBlank: autoDraw = False
+22.8258 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+22.8258 	EXP 	textStudytrail: text = 'content'
+22.8258 	EXP 	textStudytrail: autoDraw = True
+24.8417 	EXP 	textStudytrail: autoDraw = False
+24.8417 	EXP 	textBlank: autoDraw = True
+25.3253 	EXP 	New trial (rep=1, index=1): <Trial 7 (1 in rep 1) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 7, 'thisTrialN': 1, 'thisRepN': 1}>
+25.3405 	EXP 	textBlank: autoDraw = False
+25.3405 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+25.3405 	EXP 	textStudytrail: height = 0.05
+25.3405 	EXP 	textStudytrail: height = 0.05
+25.3405 	EXP 	textStudytrail: height = 0.05
+25.3405 	EXP 	textStudytrail: text = 'excited '
+25.3405 	EXP 	textStudytrail: autoDraw = True
+27.3400 	EXP 	textStudytrail: autoDraw = False
+27.3400 	EXP 	textBlank: autoDraw = True
+27.8239 	EXP 	New trial (rep=1, index=2): <Trial 8 (2 in rep 1) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 8, 'thisTrialN': 2, 'thisRepN': 1}>
+27.8392 	EXP 	textBlank: autoDraw = False
+27.8392 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+27.8392 	EXP 	textStudytrail: height = 0.05
+27.8392 	EXP 	textStudytrail: height = 0.05
+27.8392 	EXP 	textStudytrail: height = 0.05
+27.8392 	EXP 	textStudytrail: text = 'anxiety'
+27.8392 	EXP 	textStudytrail: autoDraw = True
+29.8393 	EXP 	textStudytrail: autoDraw = False
+29.8393 	EXP 	textBlank: autoDraw = True
+30.3222 	EXP 	New trial (rep=1, index=3): <Trial 9 (3 in rep 1) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 9, 'thisTrialN': 3, 'thisRepN': 1}>
+30.3382 	EXP 	textBlank: autoDraw = False
+30.3382 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+30.3382 	EXP 	textStudytrail: height = 0.05
+30.3382 	EXP 	textStudytrail: height = 0.05
+30.3382 	EXP 	textStudytrail: height = 0.05
+30.3382 	EXP 	textStudytrail: text = 'vexed'
+30.3382 	EXP 	textStudytrail: autoDraw = True
+32.3377 	EXP 	textStudytrail: autoDraw = False
+32.3377 	EXP 	textBlank: autoDraw = True
+32.8211 	EXP 	New trial (rep=1, index=4): <Trial 10 (4 in rep 1) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 10, 'thisTrialN': 4, 'thisRepN': 1}>
+32.8367 	EXP 	textBlank: autoDraw = False
+32.8367 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+32.8367 	EXP 	textStudytrail: height = 0.05
+32.8367 	EXP 	textStudytrail: height = 0.05
+32.8367 	EXP 	textStudytrail: height = 0.05
+32.8367 	EXP 	textStudytrail: text = 'depression'
+32.8367 	EXP 	textStudytrail: autoDraw = True
+34.8372 	EXP 	textStudytrail: autoDraw = False
+34.8372 	EXP 	textBlank: autoDraw = True
+35.3202 	EXP 	New trial (rep=1, index=5): <Trial 11 (5 in rep 1) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 11, 'thisTrialN': 5, 'thisRepN': 1}>
+35.3360 	EXP 	textBlank: autoDraw = False
+35.3360 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+35.3360 	EXP 	textStudytrail: height = 0.05
+35.3360 	EXP 	textStudytrail: height = 0.05
+35.3360 	EXP 	textStudytrail: height = 0.05
+35.3360 	EXP 	textStudytrail: text = 'joyous'
+35.3360 	EXP 	textStudytrail: autoDraw = True
+37.3365 	EXP 	textStudytrail: autoDraw = False
+37.3365 	EXP 	textBlank: autoDraw = True
+37.8200 	EXP 	New trial (rep=2, index=0): <Trial 12 (0 in rep 2) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 12, 'thisTrialN': 0, 'thisRepN': 2}>
+37.8354 	EXP 	textBlank: autoDraw = False
+37.8354 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+37.8354 	EXP 	textStudytrail: height = 0.05
+37.8354 	EXP 	textStudytrail: height = 0.05
+37.8354 	EXP 	textStudytrail: height = 0.05
+37.8354 	EXP 	textStudytrail: text = 'depression'
+37.8354 	EXP 	textStudytrail: autoDraw = True
+39.8347 	EXP 	textStudytrail: autoDraw = False
+39.8347 	EXP 	textBlank: autoDraw = True
+40.3179 	EXP 	New trial (rep=2, index=1): <Trial 13 (1 in rep 2) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 13, 'thisTrialN': 1, 'thisRepN': 2}>
+40.3352 	EXP 	textBlank: autoDraw = False
+40.3352 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+40.3352 	EXP 	textStudytrail: height = 0.05
+40.3352 	EXP 	textStudytrail: height = 0.05
+40.3352 	EXP 	textStudytrail: height = 0.05
+40.3352 	EXP 	textStudytrail: text = 'anxiety'
+40.3352 	EXP 	textStudytrail: autoDraw = True
+42.3341 	EXP 	textStudytrail: autoDraw = False
+42.3341 	EXP 	textBlank: autoDraw = True
+42.8177 	EXP 	New trial (rep=2, index=2): <Trial 14 (2 in rep 2) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 14, 'thisTrialN': 2, 'thisRepN': 2}>
+42.8331 	EXP 	textBlank: autoDraw = False
+42.8331 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+42.8331 	EXP 	textStudytrail: height = 0.05
+42.8331 	EXP 	textStudytrail: height = 0.05
+42.8331 	EXP 	textStudytrail: height = 0.05
+42.8331 	EXP 	textStudytrail: text = 'content'
+42.8331 	EXP 	textStudytrail: autoDraw = True
+44.8324 	EXP 	textStudytrail: autoDraw = False
+44.8324 	EXP 	textStudytrail: autoDraw = False
+44.8324 	EXP 	textBlank: autoDraw = True
+45.3171 	EXP 	New trial (rep=2, index=3): <Trial 15 (3 in rep 2) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 15, 'thisTrialN': 3, 'thisRepN': 2}>
+45.3319 	EXP 	textBlank: autoDraw = False
+45.3319 	EXP 	textBlank: autoDraw = False
+45.3319 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+45.3319 	EXP 	textStudytrail: height = 0.05
+45.3319 	EXP 	textStudytrail: height = 0.05
+45.3319 	EXP 	textStudytrail: height = 0.05
+45.3319 	EXP 	textStudytrail: text = 'vexed'
+45.3319 	EXP 	textStudytrail: autoDraw = True
+47.3318 	EXP 	textStudytrail: autoDraw = False
+47.3318 	EXP 	textStudytrail: autoDraw = False
+47.3318 	EXP 	textBlank: autoDraw = True
+47.8320 	EXP 	New trial (rep=2, index=4): <Trial 16 (4 in rep 2) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 16, 'thisTrialN': 4, 'thisRepN': 2}>
+47.8471 	EXP 	textBlank: autoDraw = False
+47.8471 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+47.8471 	EXP 	textStudytrail: height = 0.05
+47.8471 	EXP 	textStudytrail: height = 0.05
+47.8471 	EXP 	textStudytrail: height = 0.05
+47.8471 	EXP 	textStudytrail: text = 'excited '
+47.8471 	EXP 	textStudytrail: autoDraw = True
+49.8474 	EXP 	textStudytrail: autoDraw = False
+49.8474 	EXP 	textBlank: autoDraw = True
+50.3306 	EXP 	New trial (rep=2, index=5): <Trial 17 (5 in rep 2) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 17, 'thisTrialN': 5, 'thisRepN': 2}>
+50.3461 	EXP 	textBlank: autoDraw = False
+50.3461 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+50.3461 	EXP 	textStudytrail: height = 0.05
+50.3461 	EXP 	textStudytrail: height = 0.05
+50.3461 	EXP 	textStudytrail: height = 0.05
+50.3461 	EXP 	textStudytrail: text = 'joyous'
+50.3461 	EXP 	textStudytrail: autoDraw = True
+52.3453 	EXP 	textStudytrail: autoDraw = False
+52.3453 	EXP 	textBlank: autoDraw = True
+52.8291 	EXP 	New trial (rep=3, index=0): <Trial 18 (0 in rep 3) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 18, 'thisTrialN': 0, 'thisRepN': 3}>
+52.8452 	EXP 	textBlank: autoDraw = False
+52.8452 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+52.8452 	EXP 	textStudytrail: height = 0.05
+52.8452 	EXP 	textStudytrail: height = 0.05
+52.8452 	EXP 	textStudytrail: height = 0.05
+52.8452 	EXP 	textStudytrail: text = 'content'
+52.8452 	EXP 	textStudytrail: autoDraw = True
+54.8455 	EXP 	textStudytrail: autoDraw = False
+54.8455 	EXP 	textBlank: autoDraw = True
+55.3288 	EXP 	New trial (rep=3, index=1): <Trial 19 (1 in rep 3) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 19, 'thisTrialN': 1, 'thisRepN': 3}>
+55.3441 	EXP 	textBlank: autoDraw = False
+55.3441 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+55.3441 	EXP 	textStudytrail: height = 0.05
+55.3441 	EXP 	textStudytrail: height = 0.05
+55.3441 	EXP 	textStudytrail: height = 0.05
+55.3441 	EXP 	textStudytrail: text = 'depression'
+55.3441 	EXP 	textStudytrail: autoDraw = True
+57.3442 	EXP 	textStudytrail: autoDraw = False
+57.3442 	EXP 	textBlank: autoDraw = True
+57.8273 	EXP 	New trial (rep=3, index=2): <Trial 20 (2 in rep 3) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 20, 'thisTrialN': 2, 'thisRepN': 3}>
+57.8431 	EXP 	textBlank: autoDraw = False
+57.8431 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+57.8431 	EXP 	textStudytrail: height = 0.05
+57.8431 	EXP 	textStudytrail: height = 0.05
+57.8431 	EXP 	textStudytrail: height = 0.05
+57.8431 	EXP 	textStudytrail: text = 'vexed'
+57.8431 	EXP 	textStudytrail: autoDraw = True
+59.8431 	EXP 	textStudytrail: autoDraw = False
+59.8431 	EXP 	textBlank: autoDraw = True
+60.3266 	EXP 	New trial (rep=3, index=3): <Trial 21 (3 in rep 3) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 21, 'thisTrialN': 3, 'thisRepN': 3}>
+60.3423 	EXP 	textBlank: autoDraw = False
+60.3423 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+60.3423 	EXP 	textStudytrail: height = 0.05
+60.3423 	EXP 	textStudytrail: height = 0.05
+60.3423 	EXP 	textStudytrail: height = 0.05
+60.3423 	EXP 	textStudytrail: text = 'excited '
+60.3423 	EXP 	textStudytrail: autoDraw = True
+62.3424 	EXP 	textStudytrail: autoDraw = False
+62.3424 	EXP 	textBlank: autoDraw = True
+62.8310 	EXP 	New trial (rep=3, index=4): <Trial 22 (4 in rep 3) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 22, 'thisTrialN': 4, 'thisRepN': 3}>
+62.8411 	EXP 	textBlank: autoDraw = False
+62.8411 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+62.8411 	EXP 	textStudytrail: height = 0.05
+62.8411 	EXP 	textStudytrail: height = 0.05
+62.8411 	EXP 	textStudytrail: height = 0.05
+62.8411 	EXP 	textStudytrail: text = 'joyous'
+62.8411 	EXP 	textStudytrail: autoDraw = True
+64.8411 	EXP 	textStudytrail: autoDraw = False
+64.8411 	EXP 	textBlank: autoDraw = True
+65.3242 	EXP 	New trial (rep=3, index=5): <Trial 23 (5 in rep 3) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 23, 'thisTrialN': 5, 'thisRepN': 3}>
+65.3398 	EXP 	textBlank: autoDraw = False
+65.3398 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+65.3398 	EXP 	textStudytrail: height = 0.05
+65.3398 	EXP 	textStudytrail: height = 0.05
+65.3398 	EXP 	textStudytrail: height = 0.05
+65.3398 	EXP 	textStudytrail: text = 'anxiety'
+65.3398 	EXP 	textStudytrail: autoDraw = True
+67.3398 	EXP 	textStudytrail: autoDraw = False
+67.3398 	EXP 	textBlank: autoDraw = True
+67.8229 	EXP 	New trial (rep=4, index=0): <Trial 24 (0 in rep 4) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 24, 'thisTrialN': 0, 'thisRepN': 4}>
+67.8384 	EXP 	textBlank: autoDraw = False
+67.8384 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+67.8384 	EXP 	textStudytrail: height = 0.05
+67.8384 	EXP 	textStudytrail: height = 0.05
+67.8384 	EXP 	textStudytrail: height = 0.05
+67.8384 	EXP 	textStudytrail: text = 'excited '
+67.8384 	EXP 	textStudytrail: autoDraw = True
+69.8386 	EXP 	textStudytrail: autoDraw = False
+69.8386 	EXP 	textBlank: autoDraw = True
+70.3223 	EXP 	New trial (rep=4, index=1): <Trial 25 (1 in rep 4) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 25, 'thisTrialN': 1, 'thisRepN': 4}>
+70.3376 	EXP 	textBlank: autoDraw = False
+70.3376 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+70.3376 	EXP 	textStudytrail: height = 0.05
+70.3376 	EXP 	textStudytrail: height = 0.05
+70.3376 	EXP 	textStudytrail: height = 0.05
+70.3376 	EXP 	textStudytrail: text = 'content'
+70.3376 	EXP 	textStudytrail: autoDraw = True
+72.3378 	EXP 	textStudytrail: autoDraw = False
+72.3378 	EXP 	textBlank: autoDraw = True
+72.8210 	EXP 	New trial (rep=4, index=2): <Trial 26 (2 in rep 4) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 26, 'thisTrialN': 2, 'thisRepN': 4}>
+72.8364 	EXP 	textBlank: autoDraw = False
+72.8364 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+72.8364 	EXP 	textStudytrail: height = 0.05
+72.8364 	EXP 	textStudytrail: height = 0.05
+72.8364 	EXP 	textStudytrail: height = 0.05
+72.8364 	EXP 	textStudytrail: text = 'anxiety'
+72.8364 	EXP 	textStudytrail: autoDraw = True
+74.8366 	EXP 	textStudytrail: autoDraw = False
+74.8366 	EXP 	textBlank: autoDraw = True
+75.3196 	EXP 	New trial (rep=4, index=3): <Trial 27 (3 in rep 4) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 27, 'thisTrialN': 3, 'thisRepN': 4}>
+75.3355 	EXP 	textBlank: autoDraw = False
+75.3355 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+75.3355 	EXP 	textStudytrail: height = 0.05
+75.3355 	EXP 	textStudytrail: height = 0.05
+75.3355 	EXP 	textStudytrail: height = 0.05
+75.3355 	EXP 	textStudytrail: text = 'vexed'
+75.3355 	EXP 	textStudytrail: autoDraw = True
+77.3348 	EXP 	textStudytrail: autoDraw = False
+77.3348 	EXP 	textBlank: autoDraw = True
+77.8190 	EXP 	New trial (rep=4, index=4): <Trial 28 (4 in rep 4) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 28, 'thisTrialN': 4, 'thisRepN': 4}>
+77.8349 	EXP 	textBlank: autoDraw = False
+77.8349 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+77.8349 	EXP 	textStudytrail: height = 0.05
+77.8349 	EXP 	textStudytrail: height = 0.05
+77.8349 	EXP 	textStudytrail: height = 0.05
+77.8349 	EXP 	textStudytrail: text = 'depression'
+77.8349 	EXP 	textStudytrail: autoDraw = True
+79.8340 	EXP 	textStudytrail: autoDraw = False
+79.8340 	EXP 	textBlank: autoDraw = True
+80.3170 	EXP 	New trial (rep=4, index=5): <Trial 29 (5 in rep 4) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 29, 'thisTrialN': 5, 'thisRepN': 4}>
+80.3330 	EXP 	textBlank: autoDraw = False
+80.3330 	EXP 	textStudytrail: foreColor = <psychopy.colors.Color: yellow, alpha=1.0>
+80.3330 	EXP 	textStudytrail: height = 0.05
+80.3330 	EXP 	textStudytrail: height = 0.05
+80.3330 	EXP 	textStudytrail: height = 0.05
+80.3330 	EXP 	textStudytrail: text = 'joyous'
+80.3330 	EXP 	textStudytrail: autoDraw = True
+82.3336 	EXP 	textStudytrail: autoDraw = False
+82.3336 	EXP 	textStudytrail: autoDraw = False
+82.3336 	EXP 	textBlank: autoDraw = True
+82.8340 	INFO 	Keyboard events cleared
+82.8333 	EXP 	textBlank: autoDraw = False
+82.8333 	EXP 	textBlank: autoDraw = False
+82.8333 	EXP 	textWaitScreen: autoDraw = True
+91.2987 	DATA 	Keypress: space
+91.3132 	INFO 	Keyboard events cleared
+91.3126 	EXP 	textWaitScreen: autoDraw = False
+91.3126 	EXP 	text: autoDraw = True
+92.2008 	EXP 	Imported C:/Users/mssaa/Downloads/worditem - Sheet1.csv as conditions, 12 conditions, 2 params
+92.2014 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'WordItem': 'ashamed', 'WordColor': None, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+92.2053 	DATA 	Keypress: space
+92.2115 	INFO 	Keyboard events cleared
+92.2111 	EXP 	text: autoDraw = False
+92.2111 	EXP 	text_2: height = 0.05
+92.2111 	EXP 	text_2: height = 0.05
+92.2111 	EXP 	text_2: height = 0.05
+92.2111 	EXP 	text_2: text = 'ashamed'
+92.2111 	EXP 	text_2: autoDraw = True
+93.2299 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'WordItem': 'jealous', 'WordColor': None, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+93.2340 	DATA 	Keypress: y
+93.2444 	INFO 	Keyboard events cleared
+93.2440 	EXP 	text_2: autoDraw = False
+93.2440 	EXP 	text_2: height = 0.05
+93.2440 	EXP 	text_2: height = 0.05
+93.2440 	EXP 	text_2: height = 0.05
+93.2440 	EXP 	text_2: text = 'jealous'
+93.2440 	EXP 	text_2: autoDraw = True
+94.0455 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+94.0487 	DATA 	Keypress: y
+94.0616 	INFO 	Keyboard events cleared
+94.0609 	EXP 	text_2: autoDraw = False
+94.0609 	EXP 	text_2: height = 0.05
+94.0609 	EXP 	text_2: height = 0.05
+94.0609 	EXP 	text_2: height = 0.05
+94.0609 	EXP 	text_2: text = 'joyous'
+94.0609 	EXP 	text_2: autoDraw = True
+94.4462 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'WordItem': 'delighted', 'WordColor': None, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+94.4499 	DATA 	Keypress: y
+94.4602 	INFO 	Keyboard events cleared
+94.4597 	EXP 	text_2: autoDraw = False
+94.4597 	EXP 	text_2: height = 0.05
+94.4597 	EXP 	text_2: height = 0.05
+94.4597 	EXP 	text_2: height = 0.05
+94.4597 	EXP 	text_2: text = 'delighted'
+94.4597 	EXP 	text_2: autoDraw = True
+94.7455 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'WordItem': 'calm', 'WordColor': None, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+94.7487 	DATA 	Keypress: y
+94.7611 	INFO 	Keyboard events cleared
+94.7607 	EXP 	text_2: autoDraw = False
+94.7607 	EXP 	text_2: height = 0.05
+94.7607 	EXP 	text_2: height = 0.05
+94.7607 	EXP 	text_2: height = 0.05
+94.7607 	EXP 	text_2: text = 'calm'
+94.7607 	EXP 	text_2: autoDraw = True
+95.3953 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+95.3986 	DATA 	Keypress: y
+95.4099 	INFO 	Keyboard events cleared
+95.4095 	EXP 	text_2: autoDraw = False
+95.4095 	EXP 	text_2: height = 0.05
+95.4095 	EXP 	text_2: height = 0.05
+95.4095 	EXP 	text_2: height = 0.05
+95.4095 	EXP 	text_2: text = 'vexed'
+95.4095 	EXP 	text_2: autoDraw = True
+95.8953 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'WordItem': 'fascinated', 'WordColor': None, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+95.8993 	DATA 	Keypress: y
+95.9102 	INFO 	Keyboard events cleared
+95.9097 	EXP 	text_2: autoDraw = False
+95.9097 	EXP 	text_2: height = 0.05
+95.9097 	EXP 	text_2: height = 0.05
+95.9097 	EXP 	text_2: height = 0.05
+95.9097 	EXP 	text_2: text = 'fascinated'
+95.9097 	EXP 	text_2: autoDraw = True
+96.7614 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+96.7650 	DATA 	Keypress: n
+96.7766 	INFO 	Keyboard events cleared
+96.7761 	EXP 	text_2: autoDraw = False
+96.7761 	EXP 	text_2: height = 0.05
+96.7761 	EXP 	text_2: height = 0.05
+96.7761 	EXP 	text_2: height = 0.05
+96.7761 	EXP 	text_2: text = 'excited '
+96.7761 	EXP 	text_2: autoDraw = True
+97.4944 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+97.4979 	DATA 	Keypress: y
+97.5095 	INFO 	Keyboard events cleared
+97.5089 	EXP 	text_2: autoDraw = False
+97.5089 	EXP 	text_2: height = 0.05
+97.5089 	EXP 	text_2: height = 0.05
+97.5089 	EXP 	text_2: height = 0.05
+97.5089 	EXP 	text_2: text = 'depression'
+97.5089 	EXP 	text_2: autoDraw = True
+98.0935 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+98.0964 	DATA 	Keypress: y
+98.1086 	INFO 	Keyboard events cleared
+98.1083 	EXP 	text_2: autoDraw = False
+98.1083 	EXP 	text_2: height = 0.05
+98.1083 	EXP 	text_2: height = 0.05
+98.1083 	EXP 	text_2: height = 0.05
+98.1083 	EXP 	text_2: text = 'content'
+98.1083 	EXP 	text_2: autoDraw = True
+98.5103 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+98.5135 	DATA 	Keypress: y
+98.5258 	INFO 	Keyboard events cleared
+98.5252 	EXP 	text_2: autoDraw = False
+98.5252 	EXP 	text_2: height = 0.05
+98.5252 	EXP 	text_2: height = 0.05
+98.5252 	EXP 	text_2: height = 0.05
+98.5252 	EXP 	text_2: text = 'anxiety'
+98.5252 	EXP 	text_2: autoDraw = True
+98.9438 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'WordItem': 'aggravated', 'WordColor': None, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+98.9474 	DATA 	Keypress: y
+98.9587 	INFO 	Keyboard events cleared
+98.9583 	EXP 	text_2: autoDraw = False
+98.9583 	EXP 	text_2: height = 0.05
+98.9583 	EXP 	text_2: height = 0.05
+98.9583 	EXP 	text_2: height = 0.05
+98.9583 	EXP 	text_2: text = 'aggravated'
+98.9583 	EXP 	text_2: autoDraw = True
+99.7101 	EXP 	New trial (rep=1, index=0): <Trial 12 (0 in rep 1) data={'WordItem': 'jealous', 'WordColor': None, 'thisN': 12, 'thisTrialN': 0, 'thisRepN': 1}>
+99.7137 	DATA 	Keypress: n
+99.7252 	INFO 	Keyboard events cleared
+99.7246 	EXP 	text_2: autoDraw = False
+99.7246 	EXP 	text_2: height = 0.05
+99.7246 	EXP 	text_2: height = 0.05
+99.7246 	EXP 	text_2: height = 0.05
+99.7246 	EXP 	text_2: text = 'jealous'
+99.7246 	EXP 	text_2: autoDraw = True
+100.3432 	EXP 	New trial (rep=1, index=1): <Trial 13 (1 in rep 1) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 13, 'thisTrialN': 1, 'thisRepN': 1}>
+100.3466 	DATA 	Keypress: y
+100.3575 	INFO 	Keyboard events cleared
+100.3572 	EXP 	text_2: autoDraw = False
+100.3572 	EXP 	text_2: height = 0.05
+100.3572 	EXP 	text_2: height = 0.05
+100.3572 	EXP 	text_2: height = 0.05
+100.3572 	EXP 	text_2: text = 'anxiety'
+100.3572 	EXP 	text_2: autoDraw = True
+100.7426 	EXP 	New trial (rep=1, index=2): <Trial 14 (2 in rep 1) data={'WordItem': 'ashamed', 'WordColor': None, 'thisN': 14, 'thisTrialN': 2, 'thisRepN': 1}>
+100.7460 	DATA 	Keypress: y
+100.7572 	INFO 	Keyboard events cleared
+100.7569 	EXP 	text_2: autoDraw = False
+100.7569 	EXP 	text_2: height = 0.05
+100.7569 	EXP 	text_2: height = 0.05
+100.7569 	EXP 	text_2: height = 0.05
+100.7569 	EXP 	text_2: text = 'ashamed'
+100.7569 	EXP 	text_2: autoDraw = True
+101.0760 	EXP 	New trial (rep=1, index=3): <Trial 15 (3 in rep 1) data={'WordItem': 'fascinated', 'WordColor': None, 'thisN': 15, 'thisTrialN': 3, 'thisRepN': 1}>
+101.0796 	DATA 	Keypress: y
+101.0904 	INFO 	Keyboard events cleared
+101.0901 	EXP 	text_2: autoDraw = False
+101.0901 	EXP 	text_2: height = 0.05
+101.0901 	EXP 	text_2: height = 0.05
+101.0901 	EXP 	text_2: height = 0.05
+101.0901 	EXP 	text_2: text = 'fascinated'
+101.0901 	EXP 	text_2: autoDraw = True
+101.5103 	EXP 	New trial (rep=1, index=4): <Trial 16 (4 in rep 1) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 16, 'thisTrialN': 4, 'thisRepN': 1}>
+101.5138 	DATA 	Keypress: y
+101.5247 	INFO 	Keyboard events cleared
+101.5241 	EXP 	text_2: autoDraw = False
+101.5241 	EXP 	text_2: height = 0.05
+101.5241 	EXP 	text_2: height = 0.05
+101.5241 	EXP 	text_2: height = 0.05
+101.5241 	EXP 	text_2: text = 'depression'
+101.5241 	EXP 	text_2: autoDraw = True
+102.0756 	EXP 	New trial (rep=1, index=5): <Trial 17 (5 in rep 1) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 17, 'thisTrialN': 5, 'thisRepN': 1}>
+102.0787 	DATA 	Keypress: y
+102.0911 	INFO 	Keyboard events cleared
+102.0906 	EXP 	text_2: autoDraw = False
+102.0906 	EXP 	text_2: height = 0.05
+102.0906 	EXP 	text_2: height = 0.05
+102.0906 	EXP 	text_2: height = 0.05
+102.0906 	EXP 	text_2: text = 'content'
+102.0906 	EXP 	text_2: autoDraw = True
+102.5577 	EXP 	New trial (rep=1, index=6): <Trial 18 (6 in rep 1) data={'WordItem': 'aggravated', 'WordColor': None, 'thisN': 18, 'thisTrialN': 6, 'thisRepN': 1}>
+102.5614 	DATA 	Keypress: y
+102.5741 	INFO 	Keyboard events cleared
+102.5736 	EXP 	text_2: autoDraw = False
+102.5736 	EXP 	text_2: height = 0.05
+102.5736 	EXP 	text_2: height = 0.05
+102.5736 	EXP 	text_2: height = 0.05
+102.5736 	EXP 	text_2: text = 'aggravated'
+102.5736 	EXP 	text_2: autoDraw = True
+103.4247 	EXP 	New trial (rep=1, index=7): <Trial 19 (7 in rep 1) data={'WordItem': 'delighted', 'WordColor': None, 'thisN': 19, 'thisTrialN': 7, 'thisRepN': 1}>
+103.4283 	DATA 	Keypress: n
+103.4408 	INFO 	Keyboard events cleared
+103.4401 	EXP 	text_2: autoDraw = False
+103.4401 	EXP 	text_2: height = 0.05
+103.4401 	EXP 	text_2: height = 0.05
+103.4401 	EXP 	text_2: height = 0.05
+103.4401 	EXP 	text_2: text = 'delighted'
+103.4401 	EXP 	text_2: autoDraw = True
+104.1910 	EXP 	New trial (rep=1, index=8): <Trial 20 (8 in rep 1) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 20, 'thisTrialN': 8, 'thisRepN': 1}>
+104.1943 	DATA 	Keypress: y
+104.2063 	INFO 	Keyboard events cleared
+104.2058 	EXP 	text_2: autoDraw = False
+104.2058 	EXP 	text_2: height = 0.05
+104.2058 	EXP 	text_2: height = 0.05
+104.2058 	EXP 	text_2: height = 0.05
+104.2058 	EXP 	text_2: text = 'vexed'
+104.2058 	EXP 	text_2: autoDraw = True
+104.8084 	EXP 	New trial (rep=1, index=9): <Trial 21 (9 in rep 1) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 21, 'thisTrialN': 9, 'thisRepN': 1}>
+104.8117 	DATA 	Keypress: y
+104.8233 	INFO 	Keyboard events cleared
+104.8228 	EXP 	text_2: autoDraw = False
+104.8228 	EXP 	text_2: height = 0.05
+104.8228 	EXP 	text_2: height = 0.05
+104.8228 	EXP 	text_2: height = 0.05
+104.8228 	EXP 	text_2: text = 'joyous'
+104.8228 	EXP 	text_2: autoDraw = True
+105.5085 	EXP 	New trial (rep=1, index=10): <Trial 22 (10 in rep 1) data={'WordItem': 'calm', 'WordColor': None, 'thisN': 22, 'thisTrialN': 10, 'thisRepN': 1}>
+105.5120 	DATA 	Keypress: y
+105.5222 	INFO 	Keyboard events cleared
+105.5218 	EXP 	text_2: autoDraw = False
+105.5218 	EXP 	text_2: height = 0.05
+105.5218 	EXP 	text_2: height = 0.05
+105.5218 	EXP 	text_2: height = 0.05
+105.5218 	EXP 	text_2: text = 'calm'
+105.5218 	EXP 	text_2: autoDraw = True
+106.1902 	EXP 	New trial (rep=1, index=11): <Trial 23 (11 in rep 1) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 23, 'thisTrialN': 11, 'thisRepN': 1}>
+106.1936 	DATA 	Keypress: y
+106.2056 	INFO 	Keyboard events cleared
+106.2052 	EXP 	text_2: autoDraw = False
+106.2052 	EXP 	text_2: height = 0.05
+106.2052 	EXP 	text_2: height = 0.05
+106.2052 	EXP 	text_2: height = 0.05
+106.2052 	EXP 	text_2: text = 'excited '
+106.2052 	EXP 	text_2: autoDraw = True
+106.7741 	EXP 	New trial (rep=2, index=0): <Trial 24 (0 in rep 2) data={'WordItem': 'aggravated', 'WordColor': None, 'thisN': 24, 'thisTrialN': 0, 'thisRepN': 2}>
+106.7783 	DATA 	Keypress: y
+106.7885 	INFO 	Keyboard events cleared
+106.7879 	EXP 	text_2: autoDraw = False
+106.7879 	EXP 	text_2: height = 0.05
+106.7879 	EXP 	text_2: height = 0.05
+106.7879 	EXP 	text_2: height = 0.05
+106.7879 	EXP 	text_2: text = 'aggravated'
+106.7879 	EXP 	text_2: autoDraw = True
+107.5896 	EXP 	New trial (rep=2, index=1): <Trial 25 (1 in rep 2) data={'WordItem': 'ashamed', 'WordColor': None, 'thisN': 25, 'thisTrialN': 1, 'thisRepN': 2}>
+107.5932 	DATA 	Keypress: n
+107.6043 	INFO 	Keyboard events cleared
+107.6040 	EXP 	text_2: autoDraw = False
+107.6040 	EXP 	text_2: height = 0.05
+107.6040 	EXP 	text_2: height = 0.05
+107.6040 	EXP 	text_2: height = 0.05
+107.6040 	EXP 	text_2: text = 'ashamed'
+107.6040 	EXP 	text_2: autoDraw = True
+108.3059 	EXP 	New trial (rep=2, index=2): <Trial 26 (2 in rep 2) data={'WordItem': 'fascinated', 'WordColor': None, 'thisN': 26, 'thisTrialN': 2, 'thisRepN': 2}>
+108.3094 	DATA 	Keypress: y
+108.3211 	INFO 	Keyboard events cleared
+108.3206 	EXP 	text_2: autoDraw = False
+108.3206 	EXP 	text_2: height = 0.05
+108.3206 	EXP 	text_2: height = 0.05
+108.3206 	EXP 	text_2: height = 0.05
+108.3206 	EXP 	text_2: text = 'fascinated'
+108.3206 	EXP 	text_2: autoDraw = True
+109.3562 	EXP 	New trial (rep=2, index=3): <Trial 27 (3 in rep 2) data={'WordItem': 'delighted', 'WordColor': None, 'thisN': 27, 'thisTrialN': 3, 'thisRepN': 2}>
+109.3599 	DATA 	Keypress: n
+109.3709 	INFO 	Keyboard events cleared
+109.3705 	EXP 	text_2: autoDraw = False
+109.3705 	EXP 	text_2: height = 0.05
+109.3705 	EXP 	text_2: height = 0.05
+109.3705 	EXP 	text_2: height = 0.05
+109.3705 	EXP 	text_2: text = 'delighted'
+109.3705 	EXP 	text_2: autoDraw = True
+109.9389 	EXP 	New trial (rep=2, index=4): <Trial 28 (4 in rep 2) data={'WordItem': 'calm', 'WordColor': None, 'thisN': 28, 'thisTrialN': 4, 'thisRepN': 2}>
+109.9424 	DATA 	Keypress: y
+109.9540 	INFO 	Keyboard events cleared
+109.9535 	EXP 	text_2: autoDraw = False
+109.9535 	EXP 	text_2: height = 0.05
+109.9535 	EXP 	text_2: height = 0.05
+109.9535 	EXP 	text_2: height = 0.05
+109.9535 	EXP 	text_2: text = 'calm'
+109.9535 	EXP 	text_2: autoDraw = True
+110.2899 	EXP 	New trial (rep=2, index=5): <Trial 29 (5 in rep 2) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 29, 'thisTrialN': 5, 'thisRepN': 2}>
+110.2932 	DATA 	Keypress: y
+110.3044 	INFO 	Keyboard events cleared
+110.3038 	EXP 	text_2: autoDraw = False
+110.3038 	EXP 	text_2: height = 0.05
+110.3038 	EXP 	text_2: height = 0.05
+110.3038 	EXP 	text_2: height = 0.05
+110.3038 	EXP 	text_2: text = 'vexed'
+110.3038 	EXP 	text_2: autoDraw = True
+110.9059 	EXP 	New trial (rep=2, index=6): <Trial 30 (6 in rep 2) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 30, 'thisTrialN': 6, 'thisRepN': 2}>
+110.9096 	DATA 	Keypress: y
+110.9203 	INFO 	Keyboard events cleared
+110.9198 	EXP 	text_2: autoDraw = False
+110.9198 	EXP 	text_2: height = 0.05
+110.9198 	EXP 	text_2: height = 0.05
+110.9198 	EXP 	text_2: height = 0.05
+110.9198 	EXP 	text_2: text = 'joyous'
+110.9198 	EXP 	text_2: autoDraw = True
+111.5882 	EXP 	New trial (rep=2, index=7): <Trial 31 (7 in rep 2) data={'WordItem': 'jealous', 'WordColor': None, 'thisN': 31, 'thisTrialN': 7, 'thisRepN': 2}>
+111.5919 	DATA 	Keypress: y
+111.6028 	INFO 	Keyboard events cleared
+111.6024 	EXP 	text_2: autoDraw = False
+111.6024 	EXP 	text_2: height = 0.05
+111.6024 	EXP 	text_2: height = 0.05
+111.6024 	EXP 	text_2: height = 0.05
+111.6024 	EXP 	text_2: text = 'jealous'
+111.6024 	EXP 	text_2: autoDraw = True
+112.1378 	EXP 	New trial (rep=2, index=8): <Trial 32 (8 in rep 2) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 32, 'thisTrialN': 8, 'thisRepN': 2}>
+112.1415 	DATA 	Keypress: y
+112.1532 	INFO 	Keyboard events cleared
+112.1528 	EXP 	text_2: autoDraw = False
+112.1528 	EXP 	text_2: height = 0.05
+112.1528 	EXP 	text_2: height = 0.05
+112.1528 	EXP 	text_2: height = 0.05
+112.1528 	EXP 	text_2: text = 'excited '
+112.1528 	EXP 	text_2: autoDraw = True
+112.6045 	EXP 	New trial (rep=2, index=9): <Trial 33 (9 in rep 2) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 33, 'thisTrialN': 9, 'thisRepN': 2}>
+112.6081 	DATA 	Keypress: y
+112.6197 	INFO 	Keyboard events cleared
+112.6190 	EXP 	text_2: autoDraw = False
+112.6190 	EXP 	text_2: height = 0.05
+112.6190 	EXP 	text_2: height = 0.05
+112.6190 	EXP 	text_2: height = 0.05
+112.6190 	EXP 	text_2: text = 'anxiety'
+112.6190 	EXP 	text_2: autoDraw = True
+112.9710 	EXP 	New trial (rep=2, index=10): <Trial 34 (10 in rep 2) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 34, 'thisTrialN': 10, 'thisRepN': 2}>
+112.9745 	DATA 	Keypress: y
+112.9863 	INFO 	Keyboard events cleared
+112.9856 	EXP 	text_2: autoDraw = False
+112.9856 	EXP 	text_2: height = 0.05
+112.9856 	EXP 	text_2: height = 0.05
+112.9856 	EXP 	text_2: height = 0.05
+112.9856 	EXP 	text_2: text = 'depression'
+112.9856 	EXP 	text_2: autoDraw = True
+113.4873 	EXP 	New trial (rep=2, index=11): <Trial 35 (11 in rep 2) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 35, 'thisTrialN': 11, 'thisRepN': 2}>
+113.4903 	DATA 	Keypress: y
+113.5024 	INFO 	Keyboard events cleared
+113.5017 	EXP 	text_2: autoDraw = False
+113.5017 	EXP 	text_2: height = 0.05
+113.5017 	EXP 	text_2: height = 0.05
+113.5017 	EXP 	text_2: height = 0.05
+113.5017 	EXP 	text_2: text = 'content'
+113.5017 	EXP 	text_2: autoDraw = True
+113.9540 	EXP 	New trial (rep=3, index=0): <Trial 36 (0 in rep 3) data={'WordItem': 'fascinated', 'WordColor': None, 'thisN': 36, 'thisTrialN': 0, 'thisRepN': 3}>
+113.9582 	DATA 	Keypress: y
+113.9686 	INFO 	Keyboard events cleared
+113.9682 	EXP 	text_2: autoDraw = False
+113.9682 	EXP 	text_2: height = 0.05
+113.9682 	EXP 	text_2: height = 0.05
+113.9682 	EXP 	text_2: height = 0.05
+113.9682 	EXP 	text_2: text = 'fascinated'
+113.9682 	EXP 	text_2: autoDraw = True
+114.8034 	EXP 	New trial (rep=3, index=1): <Trial 37 (1 in rep 3) data={'WordItem': 'jealous', 'WordColor': None, 'thisN': 37, 'thisTrialN': 1, 'thisRepN': 3}>
+114.8069 	DATA 	Keypress: n
+114.8181 	INFO 	Keyboard events cleared
+114.8178 	EXP 	text_2: autoDraw = False
+114.8178 	EXP 	text_2: height = 0.05
+114.8178 	EXP 	text_2: height = 0.05
+114.8178 	EXP 	text_2: height = 0.05
+114.8178 	EXP 	text_2: text = 'jealous'
+114.8178 	EXP 	text_2: autoDraw = True
+115.3535 	EXP 	New trial (rep=3, index=2): <Trial 38 (2 in rep 3) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 38, 'thisTrialN': 2, 'thisRepN': 3}>
+115.3571 	DATA 	Keypress: y
+115.3679 	INFO 	Keyboard events cleared
+115.3673 	EXP 	text_2: autoDraw = False
+115.3673 	EXP 	text_2: height = 0.05
+115.3673 	EXP 	text_2: height = 0.05
+115.3673 	EXP 	text_2: height = 0.05
+115.3673 	EXP 	text_2: text = 'anxiety'
+115.3673 	EXP 	text_2: autoDraw = True
+115.5696 	EXP 	New trial (rep=3, index=3): <Trial 39 (3 in rep 3) data={'WordItem': 'calm', 'WordColor': None, 'thisN': 39, 'thisTrialN': 3, 'thisRepN': 3}>
+115.5728 	DATA 	Keypress: y
+115.5841 	INFO 	Keyboard events cleared
+115.5838 	EXP 	text_2: autoDraw = False
+115.5838 	EXP 	text_2: height = 0.05
+115.5838 	EXP 	text_2: height = 0.05
+115.5838 	EXP 	text_2: height = 0.05
+115.5838 	EXP 	text_2: text = 'calm'
+115.5838 	EXP 	text_2: autoDraw = True
+116.0031 	EXP 	New trial (rep=3, index=4): <Trial 40 (4 in rep 3) data={'WordItem': 'aggravated', 'WordColor': None, 'thisN': 40, 'thisTrialN': 4, 'thisRepN': 3}>
+116.0069 	DATA 	Keypress: y
+116.0181 	INFO 	Keyboard events cleared
+116.0176 	EXP 	text_2: autoDraw = False
+116.0176 	EXP 	text_2: height = 0.05
+116.0176 	EXP 	text_2: height = 0.05
+116.0176 	EXP 	text_2: height = 0.05
+116.0176 	EXP 	text_2: text = 'aggravated'
+116.0176 	EXP 	text_2: autoDraw = True
+116.7525 	EXP 	New trial (rep=3, index=5): <Trial 41 (5 in rep 3) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 41, 'thisTrialN': 5, 'thisRepN': 3}>
+116.7556 	DATA 	Keypress: n
+116.7680 	INFO 	Keyboard events cleared
+116.7673 	EXP 	text_2: autoDraw = False
+116.7673 	EXP 	text_2: height = 0.05
+116.7673 	EXP 	text_2: height = 0.05
+116.7673 	EXP 	text_2: height = 0.05
+116.7673 	EXP 	text_2: text = 'content'
+116.7673 	EXP 	text_2: autoDraw = True
+117.3522 	EXP 	New trial (rep=3, index=6): <Trial 42 (6 in rep 3) data={'WordItem': 'ashamed', 'WordColor': None, 'thisN': 42, 'thisTrialN': 6, 'thisRepN': 3}>
+117.3562 	DATA 	Keypress: y
+117.3672 	INFO 	Keyboard events cleared
+117.3667 	EXP 	text_2: autoDraw = False
+117.3667 	EXP 	text_2: height = 0.05
+117.3667 	EXP 	text_2: height = 0.05
+117.3667 	EXP 	text_2: height = 0.05
+117.3667 	EXP 	text_2: text = 'ashamed'
+117.3667 	EXP 	text_2: autoDraw = True
+117.9019 	EXP 	New trial (rep=3, index=7): <Trial 43 (7 in rep 3) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 43, 'thisTrialN': 7, 'thisRepN': 3}>
+117.9052 	DATA 	Keypress: y
+117.9169 	INFO 	Keyboard events cleared
+117.9164 	EXP 	text_2: autoDraw = False
+117.9164 	EXP 	text_2: height = 0.05
+117.9164 	EXP 	text_2: height = 0.05
+117.9164 	EXP 	text_2: height = 0.05
+117.9164 	EXP 	text_2: text = 'vexed'
+117.9164 	EXP 	text_2: autoDraw = True
+118.3023 	EXP 	New trial (rep=3, index=8): <Trial 44 (8 in rep 3) data={'WordItem': 'delighted', 'WordColor': None, 'thisN': 44, 'thisTrialN': 8, 'thisRepN': 3}>
+118.3060 	DATA 	Keypress: y
+118.3171 	INFO 	Keyboard events cleared
+118.3166 	EXP 	text_2: autoDraw = False
+118.3166 	EXP 	text_2: height = 0.05
+118.3166 	EXP 	text_2: height = 0.05
+118.3166 	EXP 	text_2: height = 0.05
+118.3166 	EXP 	text_2: text = 'delighted'
+118.3166 	EXP 	text_2: autoDraw = True
+118.6515 	EXP 	New trial (rep=3, index=9): <Trial 45 (9 in rep 3) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 45, 'thisTrialN': 9, 'thisRepN': 3}>
+118.6549 	DATA 	Keypress: y
+118.6671 	INFO 	Keyboard events cleared
+118.6665 	EXP 	text_2: autoDraw = False
+118.6665 	EXP 	text_2: height = 0.05
+118.6665 	EXP 	text_2: height = 0.05
+118.6665 	EXP 	text_2: height = 0.05
+118.6665 	EXP 	text_2: text = 'excited '
+118.6665 	EXP 	text_2: autoDraw = True
+118.9852 	EXP 	New trial (rep=3, index=10): <Trial 46 (10 in rep 3) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 46, 'thisTrialN': 10, 'thisRepN': 3}>
+118.9888 	DATA 	Keypress: y
+118.9998 	INFO 	Keyboard events cleared
+118.9994 	EXP 	text_2: autoDraw = False
+118.9994 	EXP 	text_2: height = 0.05
+118.9994 	EXP 	text_2: height = 0.05
+118.9994 	EXP 	text_2: height = 0.05
+118.9994 	EXP 	text_2: text = 'joyous'
+118.9994 	EXP 	text_2: autoDraw = True
+119.4188 	EXP 	New trial (rep=3, index=11): <Trial 47 (11 in rep 3) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 47, 'thisTrialN': 11, 'thisRepN': 3}>
+119.4223 	DATA 	Keypress: y
+119.4330 	INFO 	Keyboard events cleared
+119.4325 	EXP 	text_2: autoDraw = False
+119.4325 	EXP 	text_2: height = 0.05
+119.4325 	EXP 	text_2: height = 0.05
+119.4325 	EXP 	text_2: height = 0.05
+119.4325 	EXP 	text_2: text = 'depression'
+119.4325 	EXP 	text_2: autoDraw = True
+120.1006 	EXP 	New trial (rep=4, index=0): <Trial 48 (0 in rep 4) data={'WordItem': 'ashamed', 'WordColor': None, 'thisN': 48, 'thisTrialN': 0, 'thisRepN': 4}>
+120.1043 	DATA 	Keypress: y
+120.1160 	INFO 	Keyboard events cleared
+120.1156 	EXP 	text_2: autoDraw = False
+120.1156 	EXP 	text_2: height = 0.05
+120.1156 	EXP 	text_2: height = 0.05
+120.1156 	EXP 	text_2: height = 0.05
+120.1156 	EXP 	text_2: text = 'ashamed'
+120.1156 	EXP 	text_2: autoDraw = True
+120.5507 	EXP 	New trial (rep=4, index=1): <Trial 49 (1 in rep 4) data={'WordItem': 'calm', 'WordColor': None, 'thisN': 49, 'thisTrialN': 1, 'thisRepN': 4}>
+120.5538 	DATA 	Keypress: y
+120.5661 	INFO 	Keyboard events cleared
+120.5656 	EXP 	text_2: autoDraw = False
+120.5656 	EXP 	text_2: height = 0.05
+120.5656 	EXP 	text_2: height = 0.05
+120.5656 	EXP 	text_2: height = 0.05
+120.5656 	EXP 	text_2: text = 'calm'
+120.5656 	EXP 	text_2: autoDraw = True
+120.9856 	DATA 	Keypress: y
+121.0009 	EXP 	New trial (rep=4, index=2): <Trial 50 (2 in rep 4) data={'WordItem': 'excited ', 'WordColor': 'yellow', 'thisN': 50, 'thisTrialN': 2, 'thisRepN': 4}>
+121.0152 	INFO 	Keyboard events cleared
+121.0148 	EXP 	text_2: autoDraw = False
+121.0148 	EXP 	text_2: height = 0.05
+121.0148 	EXP 	text_2: height = 0.05
+121.0148 	EXP 	text_2: height = 0.05
+121.0148 	EXP 	text_2: text = 'excited '
+121.0148 	EXP 	text_2: autoDraw = True
+121.3841 	EXP 	New trial (rep=4, index=3): <Trial 51 (3 in rep 4) data={'WordItem': 'vexed', 'WordColor': 'blue', 'thisN': 51, 'thisTrialN': 3, 'thisRepN': 4}>
+121.3874 	DATA 	Keypress: y
+121.3988 	INFO 	Keyboard events cleared
+121.3983 	EXP 	text_2: autoDraw = False
+121.3983 	EXP 	text_2: height = 0.05
+121.3983 	EXP 	text_2: height = 0.05
+121.3983 	EXP 	text_2: height = 0.05
+121.3983 	EXP 	text_2: text = 'vexed'
+121.3983 	EXP 	text_2: autoDraw = True
+121.7673 	EXP 	New trial (rep=4, index=4): <Trial 52 (4 in rep 4) data={'WordItem': 'fascinated', 'WordColor': None, 'thisN': 52, 'thisTrialN': 4, 'thisRepN': 4}>
+121.7709 	DATA 	Keypress: y
+121.7814 	INFO 	Keyboard events cleared
+121.7811 	EXP 	text_2: autoDraw = False
+121.7811 	EXP 	text_2: height = 0.05
+121.7811 	EXP 	text_2: height = 0.05
+121.7811 	EXP 	text_2: height = 0.05
+121.7811 	EXP 	text_2: text = 'fascinated'
+121.7811 	EXP 	text_2: autoDraw = True
+122.5176 	EXP 	New trial (rep=4, index=5): <Trial 53 (5 in rep 4) data={'WordItem': 'aggravated', 'WordColor': None, 'thisN': 53, 'thisTrialN': 5, 'thisRepN': 4}>
+122.5215 	DATA 	Keypress: n
+122.5322 	INFO 	Keyboard events cleared
+122.5317 	EXP 	text_2: autoDraw = False
+122.5317 	EXP 	text_2: height = 0.05
+122.5317 	EXP 	text_2: height = 0.05
+122.5317 	EXP 	text_2: height = 0.05
+122.5317 	EXP 	text_2: text = 'aggravated'
+122.5317 	EXP 	text_2: autoDraw = True
+123.4161 	EXP 	New trial (rep=4, index=6): <Trial 54 (6 in rep 4) data={'WordItem': 'content', 'WordColor': 'yellow', 'thisN': 54, 'thisTrialN': 6, 'thisRepN': 4}>
+123.4209 	DATA 	Keypress: n
+123.4315 	INFO 	Keyboard events cleared
+123.4311 	EXP 	text_2: autoDraw = False
+123.4311 	EXP 	text_2: height = 0.05
+123.4311 	EXP 	text_2: height = 0.05
+123.4311 	EXP 	text_2: height = 0.05
+123.4311 	EXP 	text_2: text = 'content'
+123.4311 	EXP 	text_2: autoDraw = True
+124.2327 	EXP 	New trial (rep=4, index=7): <Trial 55 (7 in rep 4) data={'WordItem': 'anxiety', 'WordColor': 'blue', 'thisN': 55, 'thisTrialN': 7, 'thisRepN': 4}>
+124.2361 	DATA 	Keypress: y
+124.2480 	INFO 	Keyboard events cleared
+124.2474 	EXP 	text_2: autoDraw = False
+124.2474 	EXP 	text_2: height = 0.05
+124.2474 	EXP 	text_2: height = 0.05
+124.2474 	EXP 	text_2: height = 0.05
+124.2474 	EXP 	text_2: text = 'anxiety'
+124.2474 	EXP 	text_2: autoDraw = True
+124.5997 	EXP 	New trial (rep=4, index=8): <Trial 56 (8 in rep 4) data={'WordItem': 'delighted', 'WordColor': None, 'thisN': 56, 'thisTrialN': 8, 'thisRepN': 4}>
+124.6032 	DATA 	Keypress: y
+124.6143 	INFO 	Keyboard events cleared
+124.6138 	EXP 	text_2: autoDraw = False
+124.6138 	EXP 	text_2: height = 0.05
+124.6138 	EXP 	text_2: height = 0.05
+124.6138 	EXP 	text_2: height = 0.05
+124.6138 	EXP 	text_2: text = 'delighted'
+124.6138 	EXP 	text_2: autoDraw = True
+124.7836 	DATA 	Keypress: y
+124.7993 	EXP 	New trial (rep=4, index=9): <Trial 57 (9 in rep 4) data={'WordItem': 'jealous', 'WordColor': None, 'thisN': 57, 'thisTrialN': 9, 'thisRepN': 4}>
+124.8139 	INFO 	Keyboard events cleared
+124.8135 	EXP 	text_2: autoDraw = False
+124.8135 	EXP 	text_2: height = 0.05
+124.8135 	EXP 	text_2: height = 0.05
+124.8135 	EXP 	text_2: height = 0.05
+124.8135 	EXP 	text_2: text = 'jealous'
+124.8135 	EXP 	text_2: autoDraw = True
+124.9826 	EXP 	New trial (rep=4, index=10): <Trial 58 (10 in rep 4) data={'WordItem': 'depression', 'WordColor': 'blue', 'thisN': 58, 'thisTrialN': 10, 'thisRepN': 4}>
+124.9862 	DATA 	Keypress: y
+124.9971 	INFO 	Keyboard events cleared
+124.9966 	EXP 	text_2: autoDraw = False
+124.9966 	EXP 	text_2: height = 0.05
+124.9966 	EXP 	text_2: height = 0.05
+124.9966 	EXP 	text_2: height = 0.05
+124.9966 	EXP 	text_2: text = 'depression'
+124.9966 	EXP 	text_2: autoDraw = True
+125.4655 	EXP 	New trial (rep=4, index=11): <Trial 59 (11 in rep 4) data={'WordItem': 'joyous', 'WordColor': 'yellow', 'thisN': 59, 'thisTrialN': 11, 'thisRepN': 4}>
+125.4691 	DATA 	Keypress: y
+125.4806 	INFO 	Keyboard events cleared
+125.4802 	EXP 	text_2: autoDraw = False
+125.4802 	EXP 	text_2: height = 0.05
+125.4802 	EXP 	text_2: height = 0.05
+125.4802 	EXP 	text_2: height = 0.05
+125.4802 	EXP 	text_2: text = 'joyous'
+125.4802 	EXP 	text_2: autoDraw = True
+125.9325 	DATA 	Keypress: y
+125.9470 	EXP 	text_2: autoDraw = False
+125.9472 	EXP 	Solo project: status = STOPPED
+125.9919 	INFO 	saved data to 'C:\\Users\\mssaa\\OneDrive\\Desktop\\PSYCHOPY\\data/Dhieraj_Solo project_2024-12-06_12h01.02.568.csv'
+125.9937 	INFO 	saved data to C:\Users\mssaa\OneDrive\Desktop\PSYCHOPY\data/Dhieraj_Solo project_2024-12-06_12h01.02.568.psydat
